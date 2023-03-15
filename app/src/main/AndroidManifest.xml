@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.dbproject">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.DBproject">
+        <activity
+            android:name=".UpdateAnnoucementActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ViewMemberActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ViewAnnoucementMember"
+            android:exported="false" />
+        <activity
+            android:name=".JoinSocietyActivity"
+            android:exported="false" />
+        <activity
+            android:name=".NonMemberView"
+            android:exported="false" />
+        <activity
+            android:name=".ViewAnnoucementAdmin"
+            android:exported="false" />
+        <activity
+            android:name=".AddAnnoucementActivity"
+            android:exported="false" />
+        <activity
+            android:name=".HeadDashboardActivity"
+            android:exported="false" />
+        <activity
+            android:name=".UpdateEvent"
+            android:exported="false" />
+        <activity
+            android:name=".UserViewActivity"
+            android:exported="false" />
+        <activity
+            android:name=".UpdateSociety"
+            android:exported="false" />
+        <activity
+            android:name=".UpdateUserActivity"
+            android:exported="false" />
+        <activity
+            android:name=".utils.Test"
+            android:exported="false" />
+        <activity
+            android:name=".addEvent"
+            android:exported="false" />
+        <activity
+            android:name=".addSociety"
+            android:exported="false" />
+        <activity
+            android:name=".AdminPanel"
+            android:exported="false" />
+        <activity
+            android:name=".signUpActivity2"
+            android:exported="false" />
+        <activity
+            android:name=".Home"
+            android:exported="false" />
+        <activity
+            android:name=".NonUserView"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
